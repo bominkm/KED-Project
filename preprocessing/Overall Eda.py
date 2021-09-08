@@ -243,17 +243,3 @@ plt.xlabel(' ')
 plt.ylabel(' ')
 # plt.xticks(fontsize=25)
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
