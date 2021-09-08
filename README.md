@@ -1,4 +1,4 @@
-# KED_Project
+# 디지털 산업혁신 빅데이터 플랫폼 공모전
 ## [분석] 사업목적을 활용한 업종코드 예측
 
 
@@ -29,12 +29,12 @@
 
 ## 2. Embedding - Fasttext   
  
- 위키피디아 pretrain model 사용
+ 위키피디아 pretrain model 사용하였습니다.
 
 
 ## 3. Modeling - BILSTM    
 
-  단어 구성에 주목할 수 있는 양방향 순환신경망 고려
+  단어 구성에 주목할 수 있는 양방향 순환신경망 고려한 모델을 적용하였습니다.
   
       def build_model():
         model = tf.keras.Sequential()
@@ -45,10 +45,6 @@
         model.add(tf.keras.layers.Dense(19, activation='softmax'))    
         return model      
 
-
-
-
-----------------------------------------------------------------
 
 
 
